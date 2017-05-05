@@ -5,14 +5,14 @@
 ![GIF1.gif](http://upload-images.jianshu.io/upload_images/4636177-6e6a9f14093038f9.gif?imageMogr2/auto-orient/strip)
 ![GIF6666.gif](http://upload-images.jianshu.io/upload_images/4636177-0c2050403ce954ab.gif?imageMogr2/auto-orient/strip)
 ***
-#####主要思路
+##### 主要思路
 整一个布局就是**ExpandableListView**，然后自定义一个**ActionBar**，**ActionBar**上面显示购物车数量，通过**ActionBar**上面的编辑状态，店铺布局，所有商品布局，底部布局要进行相应的变化，编辑状态下需要改变商品的数量，删除商品，全选商品，隐藏店铺的编辑。非编辑状态可以显示店铺的编辑，显示结算，商品的信息。通过每一个店铺上面的编辑状态，该店铺旗下的所有商品布局都要进行相应的变化。编辑状态下，需要改变商品的数量和删除商品。非编辑状态下只需要显示商品的信息。当该店铺下所有商品都被勾选，对应的店铺也要被勾选。反之，该店铺下只要有一个商品没有被勾选，那么店铺就不用勾选。**其实逻辑挺简单的，复杂的逻辑其实就是很多简单逻辑组成的，我们只需要把复杂的逻辑简单化成很多简单的逻辑，我们就能完成一个大概的思路**
 ****
 
 ##### 代码教学
 ****
 我们第一步要做就是自定义一个ActionBar，几行代码就能解决。
-
+<pre>
     private void initActionBar() {
         //隐藏标题栏
         if (getSupportActionBar() != null) {
@@ -27,6 +27,7 @@
             lp.gravity = Gravity.HORIZONTAL_GRAVITY_MASK | Gravity.CENTER_HORIZONTAL;
             getSupportActionBar().setCustomView(view, lp);
         }
+        </pre>
 完成之后效果图:
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-502c4341eebd3432.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
