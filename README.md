@@ -3,6 +3,7 @@
 ##### 效果图
 
 ![GIF1.gif](http://upload-images.jianshu.io/upload_images/4636177-6e6a9f14093038f9.gif?imageMogr2/auto-orient/strip)
+
 ![GIF6666.gif](http://upload-images.jianshu.io/upload_images/4636177-0c2050403ce954ab.gif?imageMogr2/auto-orient/strip)
 ***
 ##### 主要思路
@@ -33,8 +34,9 @@
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-502c4341eebd3432.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ***
 第二步就是写整个布局xml文件了，基础知识也没有什么好说的。
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center_vertical"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -190,9 +192,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             layout="@layout/empty_shopcart" />
-</FrameLayout>
+    </FrameLayout>
     </in.srain.cube.views.ptr.PtrFrameLayout>
-</LinearLayout>
+    </LinearLayout>
 完成之后效果图：
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-33fde46e946b6d22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
