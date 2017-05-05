@@ -33,7 +33,6 @@
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-502c4341eebd3432.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ***
 第二步就是写整个布局xml文件了，基础知识也没有什么好说的。
-<pre>
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center_vertical"
@@ -194,10 +193,9 @@
 </FrameLayout>
     </in.srain.cube.views.ptr.PtrFrameLayout>
 </LinearLayout>
-</pre>
-
 完成之后效果图：
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-33fde46e946b6d22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 第三步 就是写店铺的xml，商品的xml,商品为空xml，此处略。
 
 ***
