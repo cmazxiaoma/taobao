@@ -198,6 +198,8 @@
 完成之后效果图：
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/4636177-33fde46e946b6d22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+***
+
 第三步 就是写店铺的xml，商品的xml,商品为空xml，此处略。
 
 ***
