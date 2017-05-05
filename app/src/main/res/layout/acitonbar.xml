@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/shoppingcat_num"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="购物车(0)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:text="@string/actionBar_edit"
+            android:id="@+id/actionBar_edit"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+</RelativeLayout>

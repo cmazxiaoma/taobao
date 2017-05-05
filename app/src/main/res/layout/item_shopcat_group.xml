@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/store_checkBox"
+            android:visibility="visible"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:minWidth="32dp"
+            android:minHeight="48dp"
+            android:background="@null"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:textColor="@color/grey_color2"
+            android:drawableRight="@drawable/right_arrow"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/shop"
+            android:textSize="18sp"
+            android:text="小马的店铺"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/store_checkBox"
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@color/transparent"
+            android:textColor="@color/grey_color2"
+            android:id="@+id/store_edit"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="编辑"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

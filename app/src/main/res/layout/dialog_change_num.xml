@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="170dp">
+
+    <TextView
+        android:padding="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/grey_color1"
+        android:textSize="18sp"
+        android:text="修改购买数量"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/ll_change_num"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/dialog_reduceNum"
+            android:background="@drawable/cart_min"
+            android:layout_width="36dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:id="@+id/dialog_num"
+            android:background="@drawable/icon_cart_count"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/ic_taobao"
+            android:text="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/dialog_reduceNum"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_toRightOf="@+id/dialog_num"
+            android:background="@drawable/cart_max"
+            android:id="@+id/dialog_increaseNum"
+            android:layout_width="36dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/grey_color3"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="取消"
+            android:id="@+id/dialog_Nbutton"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textStyle="bold"
+            android:background="@color/ic_red"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:text="确定"
+            android:id="@+id/dialog_Pbutton"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

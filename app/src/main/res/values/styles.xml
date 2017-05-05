@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ic_taobao</item>
+        <item name="colorPrimaryDark">@color/ic_taobao</item>
+        <item name="colorAccent">@color/ic_taobao</item>
+    </style>
+
+    <style name="myActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+</resources>
