@@ -1,4 +1,6 @@
 ## 前言
+### juejin blog url: https://www.jianshu.com/u/eff099687e03
+### jianshu blog url: https://juejin.im/user/592fa64d2f301e00581f7858/posts
 其实做一个电商购物车，还真不是一个轻松的活。但是只要掌握思路，一步一步来做，就会发现也就这样。废物不多说，直接上效果图
 ## 效果图
 
